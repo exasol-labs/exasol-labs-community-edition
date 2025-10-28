@@ -8,6 +8,11 @@ Built with passion by our **Solution Engineering Team** to **supercharge your in
 
 ---
 
+**[PLEASE READ THIS DISCLAIMER BEFORE USING THE CODE IN THIS REPOSITORY](https://github.com/exasol-labs/exasol-labs-community-edition/blob/main/DISCLAIMER.md)**
+**[LICENSE](https://github.com/exasol-labs/exasol-labs-community-edition?tab=MIT-1-ov-file)**
+
+---
+
 ### 🌟 Get Started Today
 
 Take your business to the next level with the power of our **[Latest Release of the Exasol Analytical Engine](https://www.exasol.com/blog/exasol-8-release-2025-1/)** proudly developed by our fantastic colleagues in the **Development Team**.
