@@ -9,6 +9,7 @@ Built with passion by our **Solution Engineering Team** to **supercharge your in
 ---
 
 **[PLEASE READ THIS DISCLAIMER BEFORE USING THE CODE IN THIS REPOSITORY](https://github.com/exasol-labs/exasol-labs-community-edition/blob/main/DISCLAIMER.md)**
+
 **[LICENSE](https://github.com/exasol-labs/exasol-labs-community-edition?tab=MIT-1-ov-file)**
 
 ---
