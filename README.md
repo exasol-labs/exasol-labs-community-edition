@@ -183,7 +183,7 @@ Exasol Community Edition has been extensively tested and tuned for these hypervi
 > 🧩 **Note:**  
 > Please understand that **Exasol does not provide support** for the installation or operation of third-party hypervisor software.  
 > For assistance, please contact the respective vendor directly and follow their official installation instructions.  
-> **The installation processes are usually simple, well-documented and staightforward and should not take more than 5-10 mins**
+> **The installation processes are usually simple, well-documented and staightforward and should not take more than 5-10 mins!**
 
 ---
 
@@ -237,7 +237,7 @@ Exasol Community Edition has been extensively tested and tuned for these hypervi
 
 - ☁️ **Avoid cloud-synced directories:**  
   Do **not** store or sync your VM folder in cloud backup services like OneDrive, Dropbox, or iCloud.  
-  These tools may lock or partially sync large VM files, causing instability.
+  These tools may lock or partially sync large VM files, causing instability or degrade VM performance.
 
 - 🧩 **Architecture limitation:**  
   Exasol Community Edition currently supports **only x86-64 processor architectures** (Intel / AMD).  
@@ -246,8 +246,7 @@ Exasol Community Edition has been extensively tested and tuned for these hypervi
 ---
 
 💡 **Summary:**  
-Use a **modern x86-64 system** with sufficient CPU, RAM, and SSD/NVMe storage,  
-running the **latest VMware or VirtualBox versions**.  
+Use a **modern x86-64 system** with sufficient CPU, RAM, and SSD/NVMe storage, running the **latest VMware or VirtualBox versions**.  
 Both are **free to use**, with **VMware recommended** for its **30–40 % higher performance** and stability.  
 Follow best practices (reboot after install, disable live scanning) for a smooth experience with the Exasol Community Edition.
 
