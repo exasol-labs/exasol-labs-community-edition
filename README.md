@@ -1,10 +1,10 @@
 # 🚀 Exasol Community Edition 202x.x
 
-**Exasol Community Edition** is a **fully functional, free-of-charge Exasol 8 database without restrictions on features** - packaged as a Virtual Machine Image for **easy installation and non-productive use on any desktop or laptop**.
+**Exasol Community Edition** is a **fully functional, free Exasol 8 database with no feature restrictions**, packaged as a **ready-to-use Virtual Machine image** for **easy installation and evaluation on any desktop or laptop**.
 
-It’s your **One-Stop Solution and Swiss Army Knife** for **self-evaluation, testing, and proof-of-concepts** — supporting **up to 200 GB raw data on a single node**.  
+It’s your **One-Stop Solution and Swiss Army Knife** for **self-evaluation, testing, and proof-of-concepts (PoCs)** — supporting **up to 200 GB of raw data on a single node**.  
 
-**Built for you with passion by our Solution Engineering Team** to **supercharge your innovation, data, and AI projects**, while giving you a **hands-on introduction to Exasol’s legendary high-performance capabilities** in a friendly, non-production environment.
+**Built with passion by our Solution Engineering Team** to **supercharge your innovation, data, and AI projects**, while providing a **hands-on introduction to Exasol’s legendary performance** in a friendly, non-production environment.
 
 ---
 
@@ -14,10 +14,10 @@ It’s your **One-Stop Solution and Swiss Army Knife** for **self-evaluation, te
 
 ## 🌟 Get Started Today
 
-Take your business to the next level with the power of our **[Latest Release of the Exasol Analytical Engine](https://www.exasol.com/blog/exasol-8-release-2025-1/)** proudly developed by our fantastic colleagues in the **Development Team**.
+Take your analytics to the next level with the power of our **[Latest Release of the Exasol Analytical Engine](https://www.exasol.com/blog/exasol-8-release-2025-1/)** proudly crafted by our fantastic **Development Team**.
 
 - 🧩 **Install and run Exasol Community Edition in under 5 minutes** — from Virtual Machine startup to your first query or data migration.  
-- 🚀 **Effortlessly migrate your data from other databases and build your new Exasol Analytics Data Warehouse.**  
+- 🚀 **Effortlessly migrate data from any database and build your next-generation Exasol Analytics Data Warehouse.**  
 - 📊 **Boost your BI applications by up to 10×!**  
 - 🤖 **Extend your setup with our powerful AI tools. Deploy and run your own AI models directly on your data.**
   - [Exasol AI Lab](https://github.com/exasol/ai-lab)
