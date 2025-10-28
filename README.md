@@ -1,4 +1,4 @@
-# 🚀 Exasol Community Edition V8 202x.x
+# 🚀 Exasol Community Edition 202x.x
 
 **Exasol Community Edition** is a **fully functional, free-of-charge Exasol V8 database** - packaged as a Virtual Machine Image for **easy installation and use on any desktop or laptop**.  
 
