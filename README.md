@@ -130,10 +130,9 @@ While the **Exasol Community Edition** delivers the full Exasol experience, it i
 - 🧩 **Community Edition** – Provided *as-is*, without official Exasol support. It’s built for **exploration and non-production use only**.  
   💬 Got questions? Post them in the **[Exasol Community Forum](https://community.exasol.com/tag/community-edition)** using the tag `community-edition`.
 
-- 🏢 **Exasol Software** – The Exasol database engine inside the Community Edition is the same **enterprise-grade core** used in production environments.  
-  However, the **Community Edition OVA package** itself is **not officially supported**.  
+- 🏢 **Exasol Software** – The Exasol database engine inside the Community Edition is the same **enterprise-grade core** used in production environments. However, the **Community Edition OVA package** itself is **not officially supported**.  
 
-- 🚀 **Production Use** – For production workloads and full enterprise support, please contact the **[Exasol Sales Team](https://www.exasol.com/contact-us/)** to upgrade to a production-ready license with enterprise-level support and SLA coverage.
+- 🚀 **Production Use** – For production workloads and full enterprise support, please contact the **[Exasol Sales Team](https://www.exasol.com/contact-us/)** to upgrade to a production-ready license and database with enterprise-level support and SLA coverage.
 
 
 
