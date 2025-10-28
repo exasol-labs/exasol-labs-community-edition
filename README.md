@@ -10,7 +10,7 @@ Built with passion by our **Solution Engineering Team** to **supercharge your in
 
 ### 🌟 Get Started Today
 
-Take your business to the next level with the power of our **[latest Innovation Release of the Exasol Analytical Engine](https://www.exasol.com/blog/exasol-8-release-2025-1/)** proudly developed by our fantastic colleagues in the **Development Team**.
+Take your business to the next level with the power of our **[Latest Release of the Exasol Analytical Engine](https://www.exasol.com/blog/exasol-8-release-2025-1/)** proudly developed by our fantastic colleagues in the **Development Team**.
 
 - 🧩 **Install and run Exasol Community Edition in under 5 minutes** — from startup to your first query or data migration.  
 - 🚀 **Effortlessly migrate your data from other databases and build your new Exasol Analytics Data Warehouse**  
