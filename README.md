@@ -60,7 +60,7 @@ Take your analytics to the next level with the power of our **[Latest Release of
 #### 🌐 Everything You Need, Preinstalled
 - **Firefox** preconfigured with bookmarks to essential Exasol resources and documentation  
 - **DbVisualizer Free** – a world class database client for perfectly orchestrating your Exasol Database
-- **EXAplus Commandline Client** for executing SQL directly from the terminal
+- **EXAplus Command Line Client** for executing SQL directly from the terminal
 - **Exasol Admin UI** – manage, monitor, and troubleshoot your database with ease
 
 ---
@@ -110,7 +110,7 @@ Take your analytics to the next level with the power of our **[Latest Release of
 ---
 
 #### 🔢 Ready-to-Use Virtual Schemas
-- **18 preconfigured Virtual Schemas** connected to small demo databases (**IBM DB2, MySQL, Oracle, PostgreSQL, Microsoft SQL Server**) and the **Exasol Public Demo Environment**  
+- **18 preconfigured Virtual Schemas** connected to demo databases (**IBM DB2, MySQL, Oracle, PostgreSQL, Microsoft SQL Server**) and the **Exasol Public Demo Environment**,ready to query immediately.  
 - Instantly explore and query versatile demo datasets right inside your Exasol Community Edition (Banking, Flights, NYC Taxi, Prescriptions UK, TPC-H 1-1000GB, TPC-DS 1-1000GB)  
 
 ---
