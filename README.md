@@ -59,8 +59,8 @@ Take your analytics to the next level with the power of our **[Latest Release of
 
 #### 🌐 Everything You Need, Preinstalled
 - **Firefox** preconfigured with bookmarks to essential Exasol resources and documentation  
-- **DbVisualizer Free** – the world’s best database client for perfectly orchestrating your Exasol DB
-- **EXAplus Command Line Client** for executing SQL directly from the terminal
+- **DbVisualizer Free** – a world class database client for perfectly orchestrating your Exasol Database
+- **EXAplus Commandline Client** for executing SQL directly from the terminal
 - **Exasol Admin UI** – manage, monitor, and troubleshoot your database with ease
 
 ---
