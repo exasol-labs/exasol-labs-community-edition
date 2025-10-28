@@ -1,6 +1,6 @@
 # 🚀 Exasol Community Edition 202x.x
 
-**Exasol Community Edition** is a **fully functional, free-of-charge Exasol V8 database** - packaged as a Virtual Machine Image for **easy installation and use on any desktop or laptop**.  
+**Exasol Community Edition** is a **fully functional, free-of-charge Exasol 8 database** - packaged as a Virtual Machine Image for **easy installation and use on any desktop or laptop**.  
 
 It’s your **One-Stop Solution and Swiss Army Knife** for **self-evaluation, testing, and proof-of-concepts** — supporting **up to 200 GB raw data on a single node**.  
 
