@@ -15,7 +15,7 @@ Take your business to the next level with the power of our **[Latest Release of 
 - 🧩 **Install and run Exasol Community Edition in under 5 minutes** — from startup to your first query or data migration.  
 - 🚀 **Effortlessly migrate your data from other databases and build your new Exasol Analytics Data Warehouse**  
 - 📊 **Boost your BI applications by up to 10×**  
-- 🤖 **Extend your setup** with our powerful AI tools. Deploy and run your **own AI models directly on your data — all in just one day!**
+- 🤖 **Extend your setup with our powerful AI tools. Deploy and run your own AI models directly on your data — all in under one day!**
   - [Exasol AI Lab](https://github.com/exasol/ai-lab)
   - [Exasol MCP Server](https://github.com/exasol/mcp-server)
   - [Exasol MCP Server with Text-to-SQL](https://github.com/exasol-labs/exasol-labs-text2sql-mcp-server)
