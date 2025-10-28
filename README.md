@@ -1,6 +1,6 @@
-# 🚀 Exasol Community Edition v8 202x.x
+# 🚀 Exasol Community Edition V8 202x.x
 
-**Exasol Community Edition** is a **fully functional, free-of-charge Exasol v8 database** - packaged for **easy installation and use on any desktop or laptop**.  
+**Exasol Community Edition** is a **fully functional, free-of-charge Exasol V8 database** - packaged for **easy installation and use on any desktop or laptop**.  
 
 It’s your **One-Stop Solution and Swiss Army Knife** for **self-evaluation, testing, and proof-of-concepts** — supporting **up to 200 GB raw data on a single node**.  
 
@@ -12,7 +12,7 @@ Built with passion by our **Solution Engineering Team** to **supercharge your in
 
 Take your business to the next level with the power of our **[latest Innovation Release of the Exasol Analytical Engine](https://www.exasol.com/blog/exasol-8-release-2025-1/)** proudly developed by our fantastic colleagues in the **Development Team**.
 
-- 🧩 **Install and run Exasol V8 in under 5 minutes** — from startup to your first query or data migration.  
+- 🧩 **Install and run Exasol Community Edition in under 5 minutes** — from startup to your first query or data migration.  
 - 🚀 **Effortlessly migrate your data from other databases and build your new Exasol Analytics Data Warehouse**  
 - 📊 **Boost your BI applications by up to 10×**  
 - 🤖 **Extend your setup** with our powerful AI tools. Deploy and run your **own AI models directly on your data — all in just one day!**
