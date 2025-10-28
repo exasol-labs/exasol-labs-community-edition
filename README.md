@@ -134,40 +134,120 @@ While the **Exasol Community Edition** delivers the full Exasol experience, it i
 
 - 🚀 **Production Use** – For production workloads and full enterprise support, please contact the **[Exasol Sales Team](https://www.exasol.com/contact-us/)** to upgrade to a production-ready license and database with enterprise-level support and SLA coverage.
 
+---
 
+## 🧰 Requirements and Pre-Requisites
 
-Recommended Versions of Hypervisors:
-We clearly recommend using always the most actual versions of the VMware and VirtualBox Hypervisors on your host system to ensure a flawless and high-performance experience.
-Please note that Exasol Community Edition is only running on host systems (Windows, MacOS, Linux) with x86-64 processor architecture (Intel, AMD). ARM/Apple Silicon processors are not yet supported!
+To run the **Exasol Community Edition**, your system must meet the following minimum requirements and setup conditions.  
+These ensure a smooth installation and optimal performance experience.
 
-For optimal performance please ensure that the folder/subfolder where you have imported/installed the Exasol Community Edition VM is excluded from any real-time virus scanner software like MS Defender etc. (you should do that for all your installed VMs by the way 😉) and is also not continuously synced with a Cloud Service like OneDrive or Dropbox!!!
+---
 
-For Windows (x86-64) and Linux (x86-64):
-VMware Workstation Pro/Player 25H2
-Download here:
-https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
-Please refer to the vendor’s installation instructions and prerequisites. We strongly recommend to do a reboot of your host system after the installation/update of your hypervisor software to ensure all components working correctly!
-https://www.vmware.com/docs/desktop-hypervisor-faqs
-https://knowledge.broadcom.com/external/article?articleNumber=368734
+### 💻 Minimum Host Requirements
 
-For MacOS (Intel x86-64 only):
-VMware Fusion 25H2
-Download here:
-https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
-Please refer to the vendor’s installation instructions and prerequisites. We strongly recommend to do a reboot of your host system after the installation/update of your hypervisor software to ensure all components working correctly!
-https://www.vmware.com/docs/desktop-hypervisor-faqs
-https://knowledge.broadcom.com/external/article?articleNumber=368734
+| Component | Minimum | Recommended | Notes |
+|------------|----------|--------------|-------|
+| **System Type** | Regular laptop or desktop with admin rights |  | Required to download and install software |
+| **Host Platform** | x86-64 **Windows**, **macOS (Intel only)**, or **Linux** |  | Exasol is **not yet compatible** with Apple Silicon / ARM (coming soon!) |
+| **Processor** | 4 vCPUs / Cores | 8 vCPUs / Cores | Intel or AMD only |
+| **Memory (RAM)** | 8 GB | 16 GB or more | More RAM = smoother DB and UI performance |
+| **Disk Space** | 50 GB free initially | 350 GB dynamically | Preferably **SSD** or **NVMe** storage |
+| **Hypervisor** | VMware Workstation Pro / Fusion Pro or Oracle VirtualBox | VMware recommended | See section below for supported versions |
 
+💡 **Tip:** For improved performance, allocate more VM resources if your host system allows it.  
+The default minimum setup (4 vCPUs, 8 GB RAM) provides a good baseline experience.
 
+---
 
-For Windows (x86-64), MacOS (Intel x86-64 only) and Linux (x86-64):
-VirtualBox 7.2.4 Platform Package + VirtualBox 7.2.4 Extension Pack
-Download here:
-https://www.virtualbox.org/wiki/Downloads
-Please refer to the vendor’s installation instructions and prerequisites.
-https://www.virtualbox.org/manual/
+### ⚙️ Hypervisor Recommendation
 
-We strongly recommend to do a reboot of your host system after the installation/update of your hypervisor software to ensure all components working correctly! For running the Exasol Community Edition VM please install both the Platform Package and the Extension Pack to ensure the most optimal performance.
+The **Exasol Community Edition** is delivered in **two optimized OVA flavors** —  
+one specifically tuned for **VMware Workstation Pro / Fusion**, and one for **Oracle VirtualBox**.
+
+We **clearly recommend VMware** as the **primary choice**, as it provides the **fastest and most stable virtualization technology**,  
+offering roughly **30–40 % higher performance** compared to VirtualBox in typical analytical workloads.
+
+**Licensing and usage details:**
+- 🟩 **VMware Workstation Pro / Fusion Pro** — Available **at no cost** for **personal, educational, and commercial use**.  
+- 🟦 **Oracle VirtualBox** — The **base package** is available **free of charge**, including **commercial use**.  
+  Some advanced features in the **VirtualBox Extension Pack** may require a **commercial license** for long-term use in business environments.
+
+Other similar virtualization platforms (e.g. **Proxmox**, **Parallels**, **QEMU**, etc.) *might* work as well,  
+but they have **not been officially tested**, and we **cannot guarantee** that one of the provided `.ova` flavors will be fully compatible with them.
+
+---
+
+### ⚙️ Recommended Hypervisor Versions
+
+Always use the **latest stable versions** of VMware or VirtualBox to ensure compatibility and performance.  
+Exasol Community Edition has been extensively tested and tuned for these hypervisors.
+
+---
+
+#### 🪟 For Windows (x86-64) and Linux (x86-64)
+**VMware Workstation Pro 25H2**
+
+🔗 [Download VMware Workstation & Fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)  
+📘 [VMware Desktop Hypervisor FAQs](https://www.vmware.com/docs/desktop-hypervisor-faqs)  
+📗 [VMware Knowledge Base – Article 368734](https://knowledge.broadcom.com/external/article?articleNumber=368734)
+
+> ⚠️ **Important:**  
+> After installing or updating your hypervisor, **reboot your host system** to ensure all components load correctly.  
+> VMware Workstation Pro is **free for personal, educational, and commercial use**.
+
+---
+
+#### 🍏 For macOS (Intel x86-64 only)
+**VMware Fusion 25H2**
+
+🔗 [Download VMware Workstation & Fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)  
+📘 [VMware Desktop Hypervisor FAQs](https://www.vmware.com/docs/desktop-hypervisor-faqs)  
+📗 [VMware Knowledge Base – Article 368734](https://knowledge.broadcom.com/external/article?articleNumber=368734)
+
+> ⚠️ **Important:**  
+> Exasol Community Edition currently supports **Intel-based Macs only**.  
+> **Apple Silicon (M1/M2/M3/ARM)** support is coming soon — stay tuned!  
+> Reboot your host after installation or updates for stability.  
+> VMware Fusion is **free for personal, educational, and commercial use**.
+
+---
+
+#### 🐧🪟🍏 For Windows, macOS (Intel x86-64), and Linux (x86-64)
+**Oracle VirtualBox 7.2.4 Platform Package + Extension Pack**
+
+🔗 [Download VirtualBox 7.2.4](https://www.virtualbox.org/wiki/Downloads)  
+📘 [VirtualBox User Manual](https://www.virtualbox.org/manual/)
+
+> ⚠️ **Important:**  
+> - Install **both** the *Platform Package* **and** the *Extension Pack* for best performance.  
+> - Always **reboot your host** after installation or upgrade to activate all kernel modules and network drivers.  
+> - **Oracle VirtualBox** is **free and open-source software**.  
+>   Some **Extension Pack features** may require a **commercial license** for long-term enterprise use.
+
+---
+
+### 🧠 Additional Recommendations
+
+- 🛡️ **Exclude VM folder from antivirus scanning:**  
+  Ensure the folder (and subfolders) where you installed or imported the Exasol Community Edition VM is **excluded from any real-time antivirus scanning** (e.g. Microsoft Defender).  
+  Continuous scanning can degrade performance or corrupt VM files.
+
+- ☁️ **Avoid cloud-synced directories:**  
+  Do **not** store or sync your VM folder in cloud backup services like OneDrive, Dropbox, or iCloud.  
+  These tools may lock or partially sync large VM files, causing instability.
+
+- 🧩 **Architecture limitation:**  
+  Exasol Community Edition currently supports **only x86-64 processor architectures** (Intel / AMD).  
+  **ARM / Apple Silicon** compatibility is under active development and will be available in a future release.
+
+---
+
+💡 **Summary:**  
+Use a **modern x86-64 system** with sufficient CPU, RAM, and SSD/NVMe storage,  
+running the **latest VMware or VirtualBox versions**.  
+Both are **free to use**, with **VMware recommended** for its **30–40 % higher performance** and stability.  
+Follow best practices (reboot after install, disable live scanning) for a smooth experience with the Exasol Community Edition.
+
 
 ### 💾 Download Now
 
