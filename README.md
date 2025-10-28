@@ -138,7 +138,7 @@ While the **Exasol Community Edition** delivers the full Exasol experience, it i
 
 ## 🧰 Requirements and Pre-Requisites
 
-To run the **Exasol Community Edition**, your system must meet the following minimum requirements and setup conditions.  
+To run the **Exasol Community Edition**, your host system must meet the following minimum requirements and setup conditions.  
 These ensure a smooth installation and optimal performance experience.
 
 ---
@@ -152,28 +152,26 @@ These ensure a smooth installation and optimal performance experience.
 | **Processor** | 4 vCPUs / Cores | 8 vCPUs / Cores | Intel or AMD only |
 | **Memory (RAM)** | 8 GB | 16 GB or more | More RAM = smoother DB and UI performance |
 | **Disk Space** | 50 GB free initially | 350 GB dynamically | Preferably **SSD** or **NVMe** storage |
-| **Hypervisor** | VMware Workstation Pro / Fusion Pro or Oracle VirtualBox | VMware recommended | See section below for supported versions |
+| **Hypervisor** | VMware Workstation Pro / Fusion Pro or VirtualBox | VMware recommended | See section below for supported versions |
 
-💡 **Tip:** For improved performance, allocate more VM resources if your host system allows it.  
-The default minimum setup (4 vCPUs, 8 GB RAM) provides a good baseline experience.
+💡 **Tip:** For improved performance, allocate more VM resources if your host system allows it. The default minimum setup (4 vCPUs, 8 GB RAM) provides a good baseline experience.
 
 ---
 
 ### ⚙️ Hypervisor Recommendation
 
 The **Exasol Community Edition** is delivered in **two optimized OVA flavors** —  
-one specifically tuned for **VMware Workstation Pro / Fusion**, and one for **Oracle VirtualBox**.
+one specifically tuned for **VMware Workstation Pro / Fusion**, and one for **VirtualBox**.
 
 We **clearly recommend VMware** as the **primary choice**, as it provides the **fastest and most stable virtualization technology**,  
 offering roughly **30–40 % higher performance** compared to VirtualBox in typical analytical workloads.
 
 **Licensing and usage details:**
 - 🟩 **VMware Workstation Pro / Fusion Pro** — Available **at no cost** for **personal, educational, and commercial use**.  
-- 🟦 **Oracle VirtualBox** — The **base package** is available **free of charge**, including **commercial use**.  
+- 🟦 **VirtualBox** — The **base package** is available **free of charge**, including **commercial use**.  
   Some advanced features in the **VirtualBox Extension Pack** may require a **commercial license** for long-term use in business environments.
 
-Other similar virtualization platforms (e.g. **Proxmox**, **Parallels**, **QEMU**, etc.) *might* work as well,  
-but they have **not been officially tested**, and we **cannot guarantee** that one of the provided `.ova` flavors will be fully compatible with them.
+Other similar virtualization platforms (e.g. **Proxmox**, **Parallels**, **QEMU**, etc.) *might* work as well, but they have **not been officially tested**, and we **cannot guarantee** that one of the provided `.ova` flavors will be fully compatible with them. 
 
 ---
 
@@ -182,9 +180,15 @@ but they have **not been officially tested**, and we **cannot guarantee** that o
 Always use the **latest stable versions** of VMware or VirtualBox to ensure compatibility and performance.  
 Exasol Community Edition has been extensively tested and tuned for these hypervisors.
 
+> 🧩 **Note:**  
+> Please understand that **Exasol does not provide support** for the installation or operation of third-party hypervisor software.  
+> For assistance, please contact the respective vendor directly and follow their official installation instructions.  
+> The installation processes are usually simple and well-documented.  
+> 🔁 **Don’t forget to reboot your host machine** after installing or updating your hypervisor to ensure all components are properly initialized.
+
 ---
 
-#### 🪟 For Windows (x86-64) and Linux (x86-64)
+#### 🪟🐧 For Windows (x86-64) and Linux (x86-64)
 **VMware Workstation Pro 25H2**
 
 🔗 [Download VMware Workstation & Fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion)  
@@ -192,8 +196,8 @@ Exasol Community Edition has been extensively tested and tuned for these hypervi
 📗 [VMware Knowledge Base – Article 368734](https://knowledge.broadcom.com/external/article?articleNumber=368734)
 
 > ⚠️ **Important:**  
-> After installing or updating your hypervisor, **reboot your host system** to ensure all components load correctly.  
-> VMware Workstation Pro is **free for personal, educational, and commercial use**.
+> - Always **reboot your host** after installing or updating your hypervisor to ensure all components (kernel modules and network drivers) are activated correctly.  
+> - VMware Workstation Pro is **free for personal, educational, and commercial use**.
 
 ---
 
@@ -205,23 +209,23 @@ Exasol Community Edition has been extensively tested and tuned for these hypervi
 📗 [VMware Knowledge Base – Article 368734](https://knowledge.broadcom.com/external/article?articleNumber=368734)
 
 > ⚠️ **Important:**  
-> Exasol Community Edition currently supports **Intel-based Macs only**.  
-> **Apple Silicon (M1/M2/M3/ARM)** support is coming soon — stay tuned!  
-> Reboot your host after installation or updates for stability.  
-> VMware Fusion is **free for personal, educational, and commercial use**.
+> - Exasol Community Edition currently supports **Intel-based Macs only**.  
+> - **Apple Silicon (M1/M2/M3/ARM)** support is coming soon — stay tuned!  
+> - Always **reboot your host** after installing or updating your hypervisor to ensure all components (kernel modules and network drivers) are activated correctly.  
+> - VMware Fusion is **free for personal, educational, and commercial use**.
 
 ---
 
-#### 🐧🪟🍏 For Windows, macOS (Intel x86-64), and Linux (x86-64)
-**Oracle VirtualBox 7.2.4 Platform Package + Extension Pack**
+#### 🪟🍏🐧 For Windows, macOS (Intel x86-64 only), and Linux (x86-64)
+**VirtualBox 7.2.4 Platform Package + Extension Pack**
 
 🔗 [Download VirtualBox 7.2.4](https://www.virtualbox.org/wiki/Downloads)  
 📘 [VirtualBox User Manual](https://www.virtualbox.org/manual/)
 
 > ⚠️ **Important:**  
-> - Install **both** the *Platform Package* **and** the *Extension Pack* for best performance.  
+> - Install **both** the *Platform Package* **and** the *Extension Pack*, otherwise the VM will not start! The Exasol Community Edition OVA flavor for VirtualBox uses the NVMe Storage Controller feature of the *Extension Pack* for best performance.  
 > - Always **reboot your host** after installation or upgrade to activate all kernel modules and network drivers.  
-> - **Oracle VirtualBox** is **free and open-source software**.  
+> - **VirtualBox** is **free and open-source software**.  
 >   Some **Extension Pack features** may require a **commercial license** for long-term enterprise use.
 
 ---
