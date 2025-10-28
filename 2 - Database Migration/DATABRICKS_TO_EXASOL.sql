@@ -1,0 +1,23 @@
+-- DATABRICKS_TO_EXASOL Data Migration
+--
+-- Prerequisites:
+-- The DATABRICKS database must be reachable from this Exasol database.
+-- The user credentials in the connection must be valid.
+--
+-- JDBC Driver:
+-- The actual JDBC Driver & settings.cfg File is already preinstalled for you
+-- in the BucketFS in this version of Exasol Community Edition.
+--
+-- Further documentation: https://docs.exasol.com/db/latest/loading_data/connect_sources/databricks.htm
+--
+-- Create a connection to the DATABRICKS database:
+-- For information about how to create a connection string, see "Create a Named Connection" in our GitHub repository.
+-- Replace the connection string and credentials as needed.
+--
+-- https://github.com/exasol/databricks-virtual-schema/blob/main/doc/user_guide/user_guide.md#create-a-named-connection
+--
+--
+-- Load data:
+-- Use IMPORT to load data from a table or SQL statement using the connection that you created:
+-- https://docs.exasol.com/db/latest/sql/import.htm
+--
