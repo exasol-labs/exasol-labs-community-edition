@@ -110,7 +110,7 @@ Take your analytics to the next level with the power of our **[Latest Release of
 ---
 
 #### 🔢 Ready-to-Use Virtual Schemas
-- **18 preconfigured Virtual Schemas** connected to demo databases (**IBM DB2, MySQL, Oracle, PostgreSQL, Microsoft SQL Server**) and the **Exasol Public Demo Environment** ,ready to query immediately.  
+- **18 preconfigured Virtual Schemas** connected to demo databases (**IBM DB2, MySQL, Oracle, PostgreSQL, Microsoft SQL Server**) and the **Exasol Public Demo Environment**, ready to query immediately.  
 - Instantly explore and query versatile demo datasets right inside your Exasol Community Edition (Banking, Flights, NYC Taxi, Prescriptions UK, TPC-H 1-1000GB, TPC-DS 1-1000GB)  
 
 ---
