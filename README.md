@@ -222,8 +222,8 @@ Exasol Community Edition has been extensively tested and tuned for these hypervi
 📘 [VirtualBox User Manual](https://www.virtualbox.org/manual/)
 
 > ⚠️ **Important:**  
-> - Install **both** the *Platform Package* **and** the *Extension Pack*, otherwise the VM will not start! The Exasol Community Edition OVA flavor for VirtualBox uses the NVMe Storage Controller feature of the *Extension Pack* for best performance.  
-> - Always **reboot your host** after installation or upgrade to activate all kernel modules and network drivers.  
+> - Install **both** the *Platform Package* **and** the *Extension Pack*, otherwise the VM will not start! The Exasol Community Edition `.ova` flavor for VirtualBox uses the NVMe storage controller feature of the *Extension Pack* for best performance.  
+> - Always **reboot your host** after installing or updating your hypervisor to ensure all components (kernel modules and network drivers) are activated correctly.  
 > - **VirtualBox** is **free and open-source software**.  
 >   Some **Extension Pack features** may require a **commercial license** for long-term enterprise use.
 
