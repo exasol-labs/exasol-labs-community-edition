@@ -183,8 +183,7 @@ Exasol Community Edition has been extensively tested and tuned for these hypervi
 > 🧩 **Note:**  
 > Please understand that **Exasol does not provide support** for the installation or operation of third-party hypervisor software.  
 > For assistance, please contact the respective vendor directly and follow their official installation instructions.  
-> The installation processes are usually simple and well-documented.  
-> 🔁 **Don’t forget to reboot your host machine** after installing or updating your hypervisor to ensure all components are properly initialized.
+> **The installation processes are usually simple, well-documented and staightforward and should not take more than 5-10 mins**
 
 ---
 
