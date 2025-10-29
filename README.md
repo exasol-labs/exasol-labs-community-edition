@@ -312,7 +312,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
-✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.
+✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.  
 💡 **Tip: If you want to stop the VM and the Exasol Database please always use the icon "Shutdown DB & Server" on the desktop to ensure a graceful stop of all components.**
 
 ---
@@ -346,7 +346,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
-✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.
+✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.  
 💡 **Tip: If you want to stop the VM and the Exasol Database please always use the icon "Shutdown DB & Server" on the desktop to ensure a graceful stop of all components.**
 
 ---
