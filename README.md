@@ -261,6 +261,132 @@ Use a **modern x86-64 system** with sufficient CPU, RAM, and SSD/NVMe storage, r
 Both are **free to use**, with **VMware recommended** for its **30–40 % higher performance** and stability.  
 Follow best practices (reboot after install, disable live scanning) for a smooth experience with the Exasol Community Edition.
 
+---
+
+## 🧩 Installing Exasol Community Edition
+
+Get started in just a few minutes!  
+Each **OVA flavor** is fully preconfigured and ready to run with all recommended settings —  
+no manual tweaking required. Just import, start, and explore Exasol.
+
+---
+
+### 🪟 VMware Workstation Pro (Windows)
+
+1️⃣ **Install VMware Workstation Pro**  
+   - Download the latest version from the [VMware website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).  
+   - Follow the on-screen instructions. Installation usually takes less than 10 minutes.  
+   - 🔁 Reboot your host after installation to activate all components.
+
+2️⃣ **Download the Exasol OVA file**  
+   - Get the **VMware Edition** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
+
+3️⃣ **Import the OVA file**  
+   - Open **VMware Workstation Pro** → *File > Open*.  
+   - Select the downloaded `.ova` file and click **Import**.  
+   - All optimal settings (CPU, RAM, storage, network) are preconfigured.  
+
+4️⃣ **Start the Virtual Machine**  
+   - Select the imported VM and click **Power On**.  
+   - The VM boots automatically, performs first-start configuration, and logs in.  
+   - Default login (if required):  
+     - **Username:** `exasol`  
+     - **Password:** `exasol`
+
+✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use.
+
+---
+
+### 🍏 VMware Fusion (macOS Intel)
+
+1️⃣ **Install VMware Fusion 25H2**  
+   - Download from the [VMware website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).  
+   - Follow VMware’s setup guide, then 🔁 **reboot your Mac**.
+
+2️⃣ **Download the Exasol OVA file**  
+   - Get the **VMware Edition** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
+
+3️⃣ **Import the OVA file**  
+   - Launch **VMware Fusion** → *File > Import*.  
+   - Choose the `.ova` file and confirm.  
+   - All optimized defaults are already applied — no manual configuration needed.
+
+4️⃣ **Start the VM**  
+   - Click **Play** to boot your new Exasol VM.  
+   - Automatic setup and login will complete within minutes.  
+   - Default credentials (if requested):  
+     - **Username:** `exasol`  
+     - **Password:** `exasol`
+
+✅ Your Exasol Community Edition is now running on macOS (Intel).  
+(*Apple Silicon support coming soon!*)
+
+---
+
+### 🪟 VirtualBox (Windows)
+
+1️⃣ **Install VirtualBox 7.2.4 + Extension Pack**  
+   - Download both from the [official VirtualBox site](https://www.virtualbox.org/wiki/Downloads).  
+   - Install the *Platform Package* **and** the *Extension Pack* (needed for NVMe support).  
+   - 🔁 Reboot your host after installation.
+
+2️⃣ **Download the Exasol OVA file**  
+   - Get the **VirtualBox Edition** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
+
+3️⃣ **Import the OVA file**  
+   - Open **VirtualBox** → *File > Import Appliance*.  
+   - Select the `.ova` file and click **Next > Finish**.  
+   - All VM settings (CPU, RAM, storage, EFI, controller) are pre-tuned — no manual adjustments required.
+
+4️⃣ **Start the VM**  
+   - Select the VM and click **Start**.  
+   - The system will boot, auto-configure, and log in automatically.  
+   - Default login (if needed):  
+     - **Username:** `exasol`  
+     - **Password:** `exasol`
+
+✅ Exasol Community Edition will be fully operational within a few minutes.
+
+---
+
+### 🍏 VirtualBox (macOS Intel)
+
+1️⃣ **Install VirtualBox 7.2.4 + Extension Pack**  
+   - Download both from the [official VirtualBox site](https://www.virtualbox.org/wiki/Downloads).  
+   - Follow the on-screen installation steps and grant necessary permissions in *System Preferences > Security & Privacy*.  
+   - 🔁 Reboot your Mac after installation.
+
+2️⃣ **Download the Exasol OVA file**  
+   - Get the **VirtualBox Edition** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
+
+3️⃣ **Import the OVA file**  
+   - Open **VirtualBox** → *File > Import Appliance*.  
+   - Choose the `.ova` file and confirm the import with default settings.  
+   - All optimal parameters are already configured for best performance.
+
+4️⃣ **Start the VM**  
+   - Select the VM and click **Start**.  
+   - It will boot and log in automatically.  
+   - Default credentials (if prompted):  
+     - **Username:** `exasol`  
+     - **Password:** `exasol`
+
+✅ You’re ready to experience Exasol Community Edition on macOS Intel.  
+(*Apple Silicon support coming soon!*)
+
+---
+
+💡 **Tip:**  
+All OVA editions include **automatic IP detection, RAM scaling, and optimized networking**.  
+No need to run “Update IPs” or change settings — everything is handled for you.
+
+---
+
+🎉 **Next step:**  
+Once your VM is up and running, continue with **“Getting Started – First Login & Query”**  
+to connect to the database, open the Admin UI, and run your first SQL query.
+
+
 
 ### 💾 Download Now
 
