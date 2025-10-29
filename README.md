@@ -162,7 +162,7 @@ These ensure a smooth installation and optimal performance experience.
 
 ### 🌐 Network & Connectivity Requirements
 
-For an optimal user experience and to ensure that all **Database Migration Scripts and Templates**, **External Database Connections**, **Virtual Schema Adapters and Templates**, and **Ready-to-Use Virtual Schemas** work correctly, your **host system should have an active internet connection**.
+For an optimal experience, ensure your **host system has an active internet connection** so that all  **Database Migration Scripts and Templates, External Database Connections, Virtual Schema Adapters and Templates, and Ready-to-Use Virtual Schemas** function properly.
 
 If your environment uses a firewall, please make sure it allows **outgoing network connections** on the ports listed in the official Exasol documentation:  
 🔗 [System Network Settings and Required Ports](https://docs.exasol.com/db/latest/administration/on-premise/manage_network/system_network_settings.htm)
