@@ -306,7 +306,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
    - Select the imported VM and click **Power on this virtual machine**.
    - Please do not change any settings of the VM. You can raise your Processor/Memory settings to 8 vCPUs, 16 GB RAM at a later stage, the default setting of 4 vCPUs, 8 GB RAM is a good starting point.  
    - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
-   - If you see the green "RUNNING" status in the terminal window, you are ready to go!
+   - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Chek DB status" icon on the desktop.
    - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
    - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
@@ -339,7 +339,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
 4️⃣ **Start the Virtual Machine**  
    - By clicking **Finish** in the previous step, the startup was initiated automatically.
    - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
-   - If you see the green "RUNNING" status in the terminal window, you are ready to go!
+   - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Chek DB status" icon on the desktop.
    - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
    - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
