@@ -168,7 +168,7 @@ These ensure a smooth installation and optimal performance experience.
 | **Host Platform** | x86-64 **Windows**, **macOS (Intel only)**, or **Linux** |  | Exasol is **not yet compatible** with Apple Silicon / ARM (coming soon!) |
 | **Processor** | 4 vCPUs / Cores | 8 vCPUs / Cores | Intel or AMD only |
 | **Memory (RAM)** | 8 GB | 16 GB or more | More RAM = smoother DB and UI performance |
-| **Disk Space** | 50 GB free initially | 350 GB dynamically | Preferably **SSD** or **NVMe** storage |
+| **Disk Space** | 50 GB free initially | 350 GB (VM can dynamically grow to this size) | Preferably **SSD** or **NVMe** storage |
 | **Hypervisor** | VMware Workstation Pro / Fusion Pro or VirtualBox | VMware recommended | See section below for supported versions |
 
 💡 **Tip:** For improved performance, allocate more VM resources if your host system allows it. The default minimum setup (4 vCPUs, 8 GB RAM) provides a good baseline experience.
@@ -288,23 +288,27 @@ no manual tweaking required. Just import, start, and explore Exasol.
 
 ### 🪟 VMware Workstation Pro (Windows)
 
-1️⃣ **Install VMware Workstation Pro**  
-   - Download the latest version from the [VMware website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).  
+1️⃣ **Install VMware Workstation Pro 25H2**  
+   - Download the latest version from the [VMware website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion). 
    - Follow the on-screen instructions. Installation usually takes less than 10 minutes.  
    - 🔁 Reboot your host after installation to activate all components.
 
-2️⃣ **Download the Exasol OVA file**  
-   - Get the **VMware Edition** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
+2️⃣ **Download the `Exasol_Community_Edition_v8_202xxx_vmware.ova`**  
+   - Get the **VMware Edition (Exasol_Community_Edition_v8_202xxx_vmware.ova)** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
 
 3️⃣ **Import the OVA file**  
-   - Open **VMware Workstation Pro** → *File > Open*.  
-   - Select the downloaded `.ova` file and click **Import**.  
-   - All optimal settings (CPU, RAM, storage, network) are preconfigured.  
+   - Open **VMware Workstation Pro** → *File > Open* or → *Click the icon > Open a Virtual Machine*.  
+   - Select the downloaded `.ova` file and click **Import**.
+   - The import process usually takes less than 5 minutes to complete. 
+   - All optimal settings (CPU, RAM, storage, network) are already preconfigured for you.  
 
 4️⃣ **Start the Virtual Machine**  
-   - Select the imported VM and click **Power On**.  
-   - The VM boots automatically, performs first-start configuration, and logs in.  
-   - Default login (if required):  
+   - Select the imported VM and click **Power on this virtual machine**.
+   - Please do not change any settings of the VM. You can raise your Processor/Memory settings to 8 vCPUs, 16 GB RAM at a later stage, the default setting of 4 vCPUs, 8 GB RAM is a good starting point.  
+   - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
+   - If you see the green "RUNNING" status in the terminal window, you are ready to go!
+   - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
+   - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
