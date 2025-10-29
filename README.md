@@ -440,11 +440,12 @@ Once your **Exasol Community Edition** VM is up and running, you can start explo
 
 ---
 
-### 2️⃣ Run Your First Queries
+### 2️⃣ Run Your First SQL Query
 
-On the desktop, you’ll find convenient shortcuts for managing your Exasol environment:
-
-- Click on the **Databases** tab.
+- Click on **SQL Commander** in the Menu Bar and open a **New SQL Commander**
+- Select the Database Connection **Exasol (Local)** and copy the following SQL Statement into the window: `SELECT 'Hello, Exasol Community Edition!' AS WELCOME_MESSAGE;`
+- Submit the SQL Query by clicking the far left green play button.
+- ✅ If you see the message returned, you're all set — your Exasol Community Edition is fully operational. 🎉
 
 ---
 
