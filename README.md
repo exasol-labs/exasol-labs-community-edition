@@ -76,7 +76,7 @@ Take your analytics to the next level with the power of our **[Latest Release of
 - **Firefox** preconfigured with bookmarks to essential Exasol resources and documentation  
 - **DbVisualizer Free** – a world class database client for perfectly orchestrating your Exasol Database
 - **EXAplus Command Line Client** for executing SQL directly from the terminal
-- **Exasol Admin UI** – manage, monitor, and troubleshoot your database with ease
+- **Exasol AdminUI** – manage, monitor, and troubleshoot your database with ease
 
 ---
 
@@ -482,19 +482,20 @@ Once your **Exasol Community Edition** VM is up and running, you can start explo
 - 💡 **Pro Tip:** Curious how Virtual Schemas connect Exasol with other databases?  
 Check out the official guide 👉 [How Virtual Schemas Work](https://docs.exasol.com/db/latest/database_concepts/virtual_schema/how_it_works.htm)
 
+---
 
-Guided “Get Started” Workflows
-**Database Migration Scripts and Templates, External Database Connections, Virtual Schema Adapters and Templates, and Ready-to-Use Virtual Schemas**
+### 4️⃣ Access and explore the Exasol AdminUI
 
-### 3️⃣ Access the Admin UI
+Your Exasol Community Edition includes the new and modern **Exasol AdminUI** — a built-in web interface for **managing, monitoring, and troubleshooting** your database with ease.  
+💡 *Note:* This is the **first release** of the AdminUI — additional functionality will be added in upcoming versions.
 
-Your Exasol Community Edition includes the modern **Exasol Admin UI** — a built-in web interface for managing your database.
-
-1. Open **Firefox** (preconfigured with Exasol bookmarks).  
-2. Click the bookmark **“Exasol Admin UI”** or open the URL in Firefox:
-
-   ```text
-   https://<your-vm-ip>:4430
+- 🖱️ Double-click the **Exasol AdminUI** desktop icon.  
+- 🌐 Alternatively, open **Firefox** (preconfigured with Exasol bookmarks) and click the bookmark **“Exasol AdminUI”**.  
+- 🔗 Or open the following URL in Firefox: `https://localhost:8443`  
+- 🔑 **Login credentials:**  
+  - **Username:** `admin`  
+  - **Password:** `exasol`  
+- 🚀 Start exploring and monitoring your Exasol database directly in the browser!
 
 
 🎉 **Next step:**  
