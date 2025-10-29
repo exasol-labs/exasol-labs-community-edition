@@ -353,7 +353,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
 
 ### 🪟 VirtualBox (Windows)
 
-1️⃣ **Install VirtualBox 7.2.4 + VirtualBox Extension Pack**  
+1️⃣ **Install or Update to VirtualBox 7.2.4 + VirtualBox Extension Pack**  
    - Download both from the [official VirtualBox site](https://www.virtualbox.org/wiki/Downloads).  
    - Install the *Platform Package* **and** the *Extension Pack* (needed for NVMe support).
    - Follow the on-screen instructions. Installation usually takes less than 5 minutes. 
@@ -364,7 +364,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
    - Download size is around 14 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
 
 3️⃣ **Import the OVA file**  
-   - Open **VirtualBox** → *File > Import Appliance...* or → *Click the icon > Import*.  
+   - Open **VirtualBox** → *File > Import Appliance...* or → *Click the icon on the home screen > Import*.  
    - Select the downloaded `.ova` file by clicking on the folder icon and click **Finish**.
    - All optimal settings (CPU, RAM, storage, network) are already preconfigured for you. No manual configuration needed.
    - Please do not change any settings of the VM. You can raise your Processor/Memory settings to 8 vCPUs, 16 GB RAM at a later stage, the default setting of 4 vCPUs, 8 GB RAM is a good starting point.
@@ -386,28 +386,34 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
 
 ### 🍏 VirtualBox (macOS Intel)
 
-1️⃣ **Install VirtualBox 7.2.4 + Extension Pack**  
+1️⃣ **Install or Update to VirtualBox 7.2.4 + VirtualBox Extension Pack**  
    - Download both from the [official VirtualBox site](https://www.virtualbox.org/wiki/Downloads).  
-   - Follow the on-screen installation steps and grant necessary permissions in *System Preferences > Security & Privacy*.  
-   - 🔁 Reboot your Mac after installation.
+   - Install the *Platform Package* **and** the *Extension Pack* (needed for NVMe support).
+   - Follow the on-screen instructions. Installation usually takes less than 5 minutes. 
+   - 🔁 Reboot your Mac after installation to activate all components.
 
-2️⃣ **Download the Exasol OVA file**  
-   - Get the **VirtualBox Edition** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
+2️⃣ **Download the `Exasol_Community_Edition_v8_202xxx_virtualbox.ova`**  
+   - Get the **Virtualbox Edition (Exasol_Community_Edition_v8_202xxx_virtualbox.ova)** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
+   - Download size is around 14 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
 
 3️⃣ **Import the OVA file**  
-   - Open **VirtualBox** → *File > Import Appliance*.  
-   - Choose the `.ova` file and confirm the import with default settings.  
-   - All optimal parameters are already configured for best performance.
+   - Open **VirtualBox** → *File > Import Appliance...* or → *Click the icon on the home screen > Import*.  
+   - Select the downloaded `.ova` file by clicking on the folder icon and click **Finish**.
+   - All optimal settings (CPU, RAM, storage, network) are already preconfigured for you. No manual configuration needed.
+   - Please do not change any settings of the VM. You can raise your Processor/Memory settings to 8 vCPUs, 16 GB RAM at a later stage, the default setting of 4 vCPUs, 8 GB RAM is a good starting point.
+   - The import process usually takes less than 5 minutes to complete.
 
-4️⃣ **Start the VM**  
-   - Select the VM and click **Start**.  
-   - It will boot and log in automatically.  
-   - Default credentials (if prompted):  
+4️⃣ **Start the Virtual Machine**  
+   - Select the imported VM and click **Start**.  
+   - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
+   - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Check DB status" icon on the desktop.
+   - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
+   - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
-✅ You’re ready to experience Exasol Community Edition on macOS Intel.  
-(*Apple Silicon support coming soon!*)
+✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.  
+💡 **Tip: If you want to stop the VM and the Exasol Database please always use the icon "Shutdown DB & Server" on the desktop to ensure a graceful stop of all components.**
 
 ---
 
