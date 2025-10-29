@@ -463,16 +463,24 @@ Once your **Exasol Community Edition** VM is up and running, you can start explo
 ---
 
 - Navigate to **Bookmarks / 2 - Database Migration**.
-- Follow the instructions in the respective SQL Scripts to easily **import data from Databricks, IBM DB2, MariaDB, MySQL, Oracle, PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server (On-Prem and Azure SQL), Teradata, and Exasol.** into your Exasol Database.
+- Follow the instructions in the respective SQL Scripts to easily **import data from Databricks, IBM DB2, MariaDB, MySQL, Oracle, PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server (On-Prem and Azure SQL), Teradata, and Exasol** into your Exasol Database.
 - This will get you hands-on experience with **Exasol’s high-speed and easy migration capabilities**.
 
 ---
 
 - Navigate to **Bookmarks / 3 - Virtual Schemas**.
 - Follow the instructions in the respective SQL Scripts to easily **create virtual schemas to Databricks, IBM DB2, MySQL, Oracle, PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server, and Exasol to query your source data** directly from Exasol — no data movement required.
-- This will get you hands-on experience with **Exasol’s high-speed and easy migration capabilities**.
+- This will get you hands-on experience with **Exasol’s powerful Virtual Schema capabilities**.
 
 ---
+
+- Navigate back to the **Databases** tab.
+- Expand the **Exasol (Local)** database connection (click > on the left side of the connection name).
+- Expand the **Virtual Schemas** (click > on the left side of the Virtual Schemas node).
+- You will find **18 preconfigured Virtual Schemas** connected to demo databases (**IBM DB2, MySQL, Oracle, PostgreSQL, Microsoft SQL Server**) and the **Exasol Public Demo Environment**, ready to query immediately.
+- Simply open up a New SQL Commander Window and submit e.g. the following query: `SELECT * FROM "VS_DB2_EXASOLDEMO"."CUSTOMERS"`;
+- 💡 **Pro Tip:** Curious how Virtual Schemas connect Exasol with other databases?  
+Check out the official guide 👉 [How Virtual Schemas Work](https://docs.exasol.com/db/latest/database_concepts/virtual_schema/how_it_works.htm)
 
 
 Guided “Get Started” Workflows
