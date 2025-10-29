@@ -450,6 +450,18 @@ Once your **Exasol Community Edition** VM is up and running, you can start explo
 
 ---
 
+### 3️⃣ Explore and execute the preinstalled Guided Demo Workflows, Scripts and Templates
+
+- Click on the **Files** tab (right of the *Databases* tab).
+- Open the SQL script **`01 - TPC-H 1GB Setup.sql`** (Bookmarks - 1 Getting Started) and follow the instructions to import data from local CSV Files.
+- Open the SQL script **`02 - TPC-H 1GB Queries.sql`** (Bookmarks - 1 Getting Started) to run queries on the 1 GB TPC-H dataset.
+- Open the SQL script **`03 - TPC-DS 1GB Setup.sql`** (Bookmarks - 1 Getting Started) and follow the instructions to import data from our Exasol Public Demo environment.
+- Open the SQL script **`04 - TPC-DS 1GB Queries.sql`** (Bookmarks - 1 Getting Started) to run queries on the 1 GB TPC-DS dataset.
+- Continue with **`05 - TPC-H 10GB Setup.sql`** and **`06 - TPC-H 10GB Queries.sql`** if you want to import data and test queries on a larger dataset.
+
+Guided “Get Started” Workflows
+**Database Migration Scripts and Templates, External Database Connections, Virtual Schema Adapters and Templates, and Ready-to-Use Virtual Schemas**
+
 ### 3️⃣ Access the Admin UI
 
 Your Exasol Community Edition includes the modern **Exasol Admin UI** — a built-in web interface for managing your database.
