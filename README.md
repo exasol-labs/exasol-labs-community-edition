@@ -460,9 +460,19 @@ Once your **Exasol Community Edition** VM is up and running, you can start explo
 - Open the SQL script **`04 - TPC-DS 1GB Queries.sql`** to run queries on the 1 GB TPC-DS dataset.
 - Continue with **`05 - TPC-H 10GB Setup.sql`** and **`06 - TPC-H 10GB Queries.sql`** if you want to import data and test queries on a larger dataset.
 
-- Next - Navigate to **Bookmarks / 2 - Database Migration**.
-- Follow the instructions in the respective SQL Scripts to easily import data from **Databricks, IBM DB2, MariaDB, MySQL, Oracle, PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server (On-Prem and Azure SQL), Teradata, and Exasol.** into your Exasol Database
+---
+
+- Navigate to **Bookmarks / 2 - Database Migration**.
+- Follow the instructions in the respective SQL Scripts to easily **import data from Databricks, IBM DB2, MariaDB, MySQL, Oracle, PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server (On-Prem and Azure SQL), Teradata, and Exasol.** into your Exasol Database.
 - This will get you hands-on experience with **Exasol’s high-speed and easy migration capabilities**.
+
+---
+
+- Navigate to **Bookmarks / 3 - Virtual Schemas**.
+- Follow the instructions in the respective SQL Scripts to easily **create virtual schemas to Databricks, IBM DB2, MySQL, Oracle, PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server, and Exasol to query your source data** directly from Exasol — no data movement required.
+- This will get you hands-on experience with **Exasol’s high-speed and easy migration capabilities**.
+
+---
 
 
 Guided “Get Started” Workflows
