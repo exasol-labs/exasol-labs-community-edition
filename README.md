@@ -308,6 +308,8 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
    - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
    - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Check DB status" icon on the desktop.
    - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
+   - Auto-resize your VM screen easily by double-clicking on the top bar of the Virtual Machine Window.
+   - Please change your keyboard settings to your preferred keyboard layout by clicking on the *de1* icon in the upper right corner within the Virtual Machine.
    - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
      - **Password:** `exasol`
@@ -342,6 +344,8 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
    - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
    - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Check DB status" icon on the desktop.
    - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
+   - Auto-resize your VM screen easily by double-clicking on the top bar of the Virtual Machine Window.
+   - Please change your keyboard settings to your preferred keyboard layout by clicking on the *de1* icon in the upper right corner within the Virtual Machine.
    - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
      - **Password:** `exasol`
@@ -375,6 +379,8 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
    - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
    - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Check DB status" icon on the desktop.
    - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
+   - Auto-resize your VM screen easily by double-clicking on the top bar of the Virtual Machine Window.
+   - Please change your keyboard settings to your preferred keyboard layout by clicking on the *de1* icon in the upper right corner within the Virtual Machine.
    - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
      - **Password:** `exasol`
@@ -408,18 +414,14 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
    - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
    - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Check DB status" icon on the desktop.
    - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
+   - Auto-resize your VM screen easily by double-clicking on the top bar of the Virtual Machine Window.
+   - Please change your keyboard settings to your preferred keyboard layout by clicking on the *de1* icon in the upper right corner within the Virtual Machine.
    - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
 ✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.  
 💡 **Tip: If you want to stop the VM and the Exasol Database please always use the icon "Shutdown DB & Server" on the desktop to ensure a graceful stop of all components.**
-
----
-
-💡 **Tip:**  
-All OVA editions include **automatic IP detection, RAM scaling, and optimized networking**.  
-No need to run “Update IPs” or change settings — everything is handled for you.
 
 ---
 
