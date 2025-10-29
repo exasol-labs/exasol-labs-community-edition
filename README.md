@@ -12,18 +12,29 @@ It’s your **One-Stop Solution and Swiss Army Knife** for **self-evaluation, te
 
 ---
 
-## 📖 Table of Contents
-- [🌟 Get Started Today](#-get-started-today)
-- [✨ Key Features – What You Get](#-key-features--what-you-get)
-- [⚠️ Limitations](#️-limitations)
-- [🛟 Support](#-support)
-- [🧰 Requirements and Pre-Requisites](#-requirements-and-pre-requisites)
-- [🧩 Installing Exasol Community Edition](#-installing-exasol-community-edition)
-  - [🪟 VMware Workstation Pro (Windows)](#-vmware-workstation-pro-windows)
-  - [🍏 VMware Fusion (macOS Intel)](#-vmware-fusion-macos-intel)
-  - [🪟 VirtualBox (Windows)](#-virtualbox-windows)
-  - [🍏 VirtualBox (macOS Intel)](#-virtualbox-macos-intel)
-  - [💾 Download Now](#-download-now)
+## 📘 Table of Contents
+1. [🌟 Get Started Today](#-get-started-today)  
+2. [✨ Key Features – What You Get](#-key-features--what-you-get)  
+3. [⚠️ Limitations](#️-limitations)  
+4. [🛟 Support](#-support)  
+5. [🧰 Requirements and Pre-Requisites](#-requirements-and-pre-requisites)  
+   - [💻 Minimum Host Requirements](#-minimum-host-requirements)  
+   - [🌐 Network & Connectivity Requirements](#-network--connectivity-requirements)  
+   - [⚙️ Hypervisor Recommendation](#️-hypervisor-recommendation)  
+   - [⚙️ Recommended Hypervisor Versions](#️-recommended-hypervisor-versions)  
+   - [🧠 Additional Recommendations](#-additional-recommendations)  
+6. [🧩 Installing Exasol Community Edition](#-installing-exasol-community-edition)  
+   - [🪟 VMware Workstation Pro (Windows)](#-vmware-workstation-pro-windows)  
+   - [🍏 VMware Fusion (macOS Intel)](#-vmware-fusion-macos-intel)  
+   - [🪟 VirtualBox (Windows)](#-virtualbox-windows)  
+   - [🍏 VirtualBox (macOS Intel)](#-virtualbox-macos-intel)  
+7. [🧭 Getting Started – Running Queries in Exasol](#-getting-started--running-queries-in-exasol)  
+   - [1️⃣ Open DbVisualizer](#1️⃣-open-dbvisualizer)  
+   - [2️⃣ Run Your First SQL Query](#2️⃣-run-your-first-sql-query)  
+   - [3️⃣ Explore and Execute the Guided Demo Workflows](#3️⃣-explore-and-execute-the-guided-demo-workflows)  
+   - [4️⃣ Access and Explore the Exasol AdminUI](#4️⃣-access-and-explore-the-exasol-adminui)  
+8. [🎉 You’re All Set!](#-youre-all-set)  
+9. [💬 Join the Exasol Community](#-join-the-exasol-community)
 
 ---
 
