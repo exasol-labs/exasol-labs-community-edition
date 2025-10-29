@@ -192,9 +192,9 @@ Always use the **latest stable versions** of VMware or VirtualBox to ensure comp
 Exasol Community Edition has been extensively tested and tuned for these hypervisors.
 
 > 🧩 **Note:**  
-> Please understand that **Exasol does not provide support** for the installation or operation of third-party hypervisor software.  
+> Please note that **Exasol does not provide support** for installing or operating third-party hypervisors.  
 > For assistance, please contact the respective vendor directly and follow their official installation instructions.  
-> **The installation processes are usually simple, well-documented and staightforward and should not take more than 5-10 mins!**
+> **Installation is typically simple, well-documented, and straightforward — usually taking less than 10 minutes.**
 
 ---
 
