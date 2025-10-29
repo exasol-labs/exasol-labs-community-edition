@@ -340,7 +340,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
 4️⃣ **Start the Virtual Machine**  
    - By clicking **Finish** in the previous step, the startup was initiated automatically.
    - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
-   - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Chek DB status" icon on the desktop.
+   - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Check DB status" icon on the desktop.
    - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
    - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
@@ -373,7 +373,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
 4️⃣ **Start the Virtual Machine**  
    - Select the imported VM and click **Start**.  
    - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
-   - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Chek DB status" icon on the desktop.
+   - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Check DB status" icon on the desktop.
    - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
    - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
