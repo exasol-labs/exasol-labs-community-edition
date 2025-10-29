@@ -437,6 +437,11 @@ Once your **Exasol Community Edition** VM is up and running, you can start explo
 - Click on the **Databases** tab.
 - Expand the **Exasol (Local)** database connection (click > on the left side of the connection name).
 - Ensure the connection is successful.
+- 🔑 **Connection details (in case credentials or connection settings were lost or deleted):**  
+  - **Database Server:** `localhost/nocertcheck`  
+  - **Port:** `8563`  
+  - **User:** `sys`  
+  - **Password:** `exasol`
 
 ---
 
