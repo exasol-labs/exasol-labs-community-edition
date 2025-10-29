@@ -281,8 +281,7 @@ Follow best practices (reboot after install, disable live scanning) for a smooth
 ## 🧩 Installing Exasol Community Edition
 
 Get started in just a few minutes!  
-Each **OVA flavor** is fully preconfigured and ready to run with all recommended settings —  
-no manual tweaking required. Just import, start, and explore Exasol.
+Each **OVA flavor** is fully preconfigured and ready to run with all recommended settings — no manual tweaking required. Just import, start, and explore Exasol.
 
 ---
 
