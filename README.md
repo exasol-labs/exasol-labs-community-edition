@@ -353,18 +353,21 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
 
 ### 🪟 VirtualBox (Windows)
 
-1️⃣ **Install VirtualBox 7.2.4 + Extension Pack**  
+1️⃣ **Install VirtualBox 7.2.4 + VirtualBox Extension Pack**  
    - Download both from the [official VirtualBox site](https://www.virtualbox.org/wiki/Downloads).  
-   - Install the *Platform Package* **and** the *Extension Pack* (needed for NVMe support).  
-   - 🔁 Reboot your host after installation.
+   - Install the *Platform Package* **and** the *Extension Pack* (needed for NVMe support).
+   - Follow the on-screen instructions. Installation usually takes less than 5 minutes. 
+   - 🔁 Reboot your Windows machine after installation to activate all components.
 
-2️⃣ **Download the Exasol OVA file**  
-   - Get the **VirtualBox Edition** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
+2️⃣ **Download the `Exasol_Community_Edition_v8_202xxx_virtualbox.ova`**  
+   - Get the **Virtualbox Edition (Exasol_Community_Edition_v8_202xxx_virtualbox.ova)** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
+   - Download size is around 14 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
 
 3️⃣ **Import the OVA file**  
-   - Open **VirtualBox** → *File > Import Appliance*.  
-   - Select the `.ova` file and click **Next > Finish**.  
-   - All VM settings (CPU, RAM, storage, EFI, controller) are pre-tuned — no manual adjustments required.
+   - Open **VirtualBox** → *File > Import Appliance...* or → *Click the icon > Import*.  
+   - Select the downloaded `.ova` file by clicking on the folder icon and click **Finish**.
+   - All optimal settings (CPU, RAM, storage, network) are already preconfigured for you. No manual configuration needed.
+   - Please do not change any settings of the VM. You can raise your Processor/Memory settings to 8 vCPUs, 16 GB RAM at a later stage, the default setting of 4 vCPUs, 8 GB RAM is a good starting point.
 
 4️⃣ **Start the VM**  
    - Select the VM and click **Start**.  
