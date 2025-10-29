@@ -291,7 +291,7 @@ no manual tweaking required. Just import, start, and explore Exasol.
 1️⃣ **Install VMware Workstation Pro 25H2**  
    - Download the latest version from the [VMware website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion). 
    - Follow the on-screen instructions. Installation usually takes less than 10 minutes.  
-   - 🔁 Reboot your host after installation to activate all components.
+   - 🔁 Reboot your Windows machine after installation to activate all components.
 
 2️⃣ **Download the `Exasol_Community_Edition_v8_202xxx_vmware.ova`**  
    - Get the **VMware Edition (Exasol_Community_Edition_v8_202xxx_vmware.ova)** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
@@ -312,18 +312,19 @@ no manual tweaking required. Just import, start, and explore Exasol.
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
-✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use.
+✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.
 
 ---
 
 ### 🍏 VMware Fusion (macOS Intel)
 
 1️⃣ **Install VMware Fusion 25H2**  
-   - Download from the [VMware website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).  
-   - Follow VMware’s setup guide, then 🔁 **reboot your Mac**.
+   - Download the latest version from the [VMware website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).  
+   - Follow the on-screen instructions. Installation usually takes less than 10 minutes.
+   - 🔁 Reboot your Mac after installation to activate all components.
 
-2️⃣ **Download the Exasol OVA file**  
-   - Get the **VMware Edition** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
+2️⃣ **Download the `Exasol_Community_Edition_v8_202xxx_vmware.ova`**  
+   - Get the **VMware Edition (Exasol_Community_Edition_v8_202xxx_vmware.ova)** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
 
 3️⃣ **Import the OVA file**  
    - Launch **VMware Fusion** → *File > Import*.  
