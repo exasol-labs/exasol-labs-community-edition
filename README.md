@@ -247,7 +247,7 @@ Exasol Community Edition has been extensively tested and tuned for these hypervi
   Continuous scanning can degrade performance or corrupt VM files.
 
 - ☁️ **Avoid cloud-synced directories:**  
-  Do **not** store or sync your VM folder in cloud backup services like OneDrive, Dropbox, or iCloud.  
+  Do **not** place or sync your VM folder in cloud backup services like OneDrive, Dropbox, or iCloud.  
   These tools may lock or partially sync large VM files, causing instability or degrade VM performance.
 
 - 🧩 **Architecture limitation:**  
