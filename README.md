@@ -164,7 +164,7 @@ These ensure a smooth installation and optimal performance experience.
 
 | Component | Minimum | Recommended | Notes |
 |------------|----------|--------------|-------|
-| **System Type** | Regular laptop or desktop with admin rights |  | Required to download and install software |
+| **System Type** | Regular laptop or desktop with (temporary) admin rights |  | Required to download and install software |
 | **Host Platform** | x86-64 **Windows**, **macOS (Intel only)**, or **Linux** |  | Exasol is **not yet compatible** with Apple Silicon / ARM (coming soon!) |
 | **Processor** | 4 vCPUs / Cores | 8 vCPUs / Cores | Intel or AMD only |
 | **Memory (RAM)** | 8 GB | 16 GB or more | More RAM = smoother DB and UI performance |
@@ -314,7 +314,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
-✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.  
+✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – Running Queries in Exasol** chapter described below.  
 💡 **Tip: If you want to stop the VM and the Exasol Database please always use the icon "Shutdown DB & Server" on the desktop to ensure a graceful stop of all components.**
 
 ---
@@ -350,7 +350,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
-✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.  
+✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – Running Queries in Exasol** chapter described below.  
 💡 **Tip: If you want to stop the VM and the Exasol Database please always use the icon "Shutdown DB & Server" on the desktop to ensure a graceful stop of all components.**
 
 ---
@@ -385,7 +385,7 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
-✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.  
+✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – Running Queries in Exasol** chapter described below.  
 💡 **Tip: If you want to stop the VM and the Exasol Database please always use the icon "Shutdown DB & Server" on the desktop to ensure a graceful stop of all components.**
 
 ---
@@ -420,10 +420,44 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
-✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.  
+✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – Running Queries in Exasol** chapter described below.  
 💡 **Tip: If you want to stop the VM and the Exasol Database please always use the icon "Shutdown DB & Server" on the desktop to ensure a graceful stop of all components.**
 
 ---
+
+## 🧭 Getting Started – Running Queries in Exasol
+
+Once your **Exasol Community Edition** VM is up and running, you can start exploring right away.  All essential services start automatically at first boot.
+
+---
+
+### 1️⃣ Open DbVisualizer
+
+- Double-click the **DbVisualizer** desktop icon.
+- Click on the **Databases** tab.
+- Expand the **Exasol (Local)** database connection (click > on the left side of the connection name).
+- Ensure the connection is successful.
+
+---
+
+### 2️⃣ Run Your First Queries
+
+On the desktop, you’ll find convenient shortcuts for managing your Exasol environment:
+
+- Click on the **Databases** tab.
+
+---
+
+### 3️⃣ Access the Admin UI
+
+Your Exasol Community Edition includes the modern **Exasol Admin UI** — a built-in web interface for managing your database.
+
+1. Open **Firefox** (preconfigured with Exasol bookmarks).  
+2. Click the bookmark **“Exasol Admin UI”** or open the URL in Firefox:
+
+   ```text
+   https://<your-vm-ip>:4430
+
 
 🎉 **Next step:**  
 Once your VM is up and running, continue with **“Getting Started – First Login & Query”**  
