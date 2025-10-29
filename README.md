@@ -502,13 +502,19 @@ Your Exasol Community Edition includes the new and modern **Exasol AdminUI** —
   - **Password:** `exasol`  
 - 🚀 Start exploring and monitoring your Exasol database directly in the browser!
 
+---
 
-🎉 **Next step:**  
-Once your VM is up and running, continue with **“Getting Started – First Login & Query”**  
-to connect to the database, open the Admin UI, and run your first SQL query.
+## 🎉 You’re All Set!
 
+You’ve successfully installed, configured, and explored your **Exasol Community Edition** — from your first query to advanced workflows, migrations, and virtual schemas.  
+Now it’s time to **unleash your creativity and discover what Exasol can do for you**.
 
+💫 **Happy Exasoling!**
 
-### 💾 Download Now
+---
 
-👉 **[Get Exasol Community Edition](https://www.exasol.com/free-signup-community-edition/)**
+## 💬 Join the Exasol Community
+
+We’d **love to hear from you about your experience with the Community Edition** — actively engage, share your feedback, and connect with other users in our vibrant Exasol Community!  
+🗣️ Post it in the **[Exasol Community Forum](https://community.exasol.com/tag/community-edition)** using the tag `community-edition`.
+
