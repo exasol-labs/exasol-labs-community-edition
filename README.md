@@ -368,15 +368,19 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
    - Select the downloaded `.ova` file by clicking on the folder icon and click **Finish**.
    - All optimal settings (CPU, RAM, storage, network) are already preconfigured for you. No manual configuration needed.
    - Please do not change any settings of the VM. You can raise your Processor/Memory settings to 8 vCPUs, 16 GB RAM at a later stage, the default setting of 4 vCPUs, 8 GB RAM is a good starting point.
+   - The import process usually takes less than 5 minutes to complete.
 
-4️⃣ **Start the VM**  
-   - Select the VM and click **Start**.  
-   - The system will boot, auto-configure, and log in automatically.  
-   - Default login (if needed):  
+4️⃣ **Start the Virtual Machine**  
+   - Select the imported VM and click **Start**.  
+   - The VM boots and logs in automatically, performs first-start configuration (IP settings), and starts up the Exasol Database.
+   - If you see the green "RUNNING" status in the terminal window, you are ready to go! You can close this window. Reopen it at any time by clicking the "Chek DB status" icon on the desktop.
+   - The first-start process usually takes less than 2 minutes to complete, all subsequent starts will peform much quicker.
+   - Login to Ubuntu (if required):  
      - **Username:** `exasol`  
      - **Password:** `exasol`
 
-✅ Exasol Community Edition will be fully operational within a few minutes.
+✅ That’s it! Within minutes, your Exasol Community Edition will be ready to use. Continue with the **Getting Started – First Login & Query** chapter described below.  
+💡 **Tip: If you want to stop the VM and the Exasol Database please always use the icon "Shutdown DB & Server" on the desktop to ensure a graceful stop of all components.**
 
 ---
 
