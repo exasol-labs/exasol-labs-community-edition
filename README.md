@@ -40,7 +40,7 @@ It’s your **One-Stop Solution and Swiss Army Knife** for **self-evaluation, te
 
 ## 🌟 Get Started Today
 
-Take your analytics to the next level with the power of our **[Latest Release of the Exasol Analytical Engine](https://www.exasol.com/blog/exasol-8-release-2025-1/)** proudly crafted by our fantastic **Development Team**.
+Take your analytics to the next level with the power of our **[Latest Release of the Exasol Analytical Engine](https://www.exasol.com/blog/exasol-8-release-2025-2/)** proudly crafted by our fantastic **Development Team**.
 
 - 🧩 **Install and run Exasol Community Edition in under 5 minutes** — from Virtual Machine startup to your first query or data migration.  
 - 🚀 **Effortlessly migrate data from any database and build your next-generation Exasol Analytics Data Warehouse.**  
@@ -78,7 +78,7 @@ Take your analytics to the next level with the power of our **[Latest Release of
 ---
 
 #### 🖥️ Complete Linux Environment
-- Based on **Ubuntu Desktop 24.04.3 LTS**, fully updated and performance-tuned  
+- Based on **Ubuntu Desktop 24.04 LTS**, fully updated and performance-tuned  
 - Includes convenient **desktop shortcuts** for Exasol DB administration and monitoring  
 
 ---
@@ -99,7 +99,7 @@ Take your analytics to the next level with the power of our **[Latest Release of
 
 #### 🔗 Preinstalled JDBC Drivers & Connectors
 - Ready-to-use JDBC drivers and configurations in Exasol **BucketFS** for:  
-  **Databricks, IBM DB2, MariaDB, MySQL, Oracle (JDBC & OCI), PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server (On-Prem and Azure SQL, SQL Server Authentication and Microsoft Entra ID / Azure Active Directory Authentication Mode), Teradata, and Exasol.**
+  **Amazon Athena, Amazon Redshift, Databricks, IBM DB2, MariaDB, MySQL, Oracle (JDBC & OCI), PostgreSQL, SAP Hana, Snowflake, Microsoft SQL Server (On-Prem and Azure SQL, SQL Server Authentication and Microsoft Entra ID / Azure Active Directory Authentication Mode), Teradata and Exasol.**
 
 ---
 
@@ -108,7 +108,7 @@ Take your analytics to the next level with the power of our **[Latest Release of
 - Preinstalled and ready-to-use **Database Migration Scripts and Templates** for seamless data migration from the most common enterprise databases — all available out of the box.
 
 - Supported source databases:  
-**Databricks, IBM DB2, MariaDB, MySQL, Oracle, PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server (On-Prem and Azure SQL), Teradata, and Exasol.**
+**Amazon Redshift, Databricks, IBM DB2, MariaDB, MySQL, Oracle, PostgreSQL, SAP Hana, Snowflake, Microsoft SQL Server (On-Prem and Azure SQL), Teradata and Exasol.**
 
 - Migrate your data into Exasol in **three simple steps**:  
   1️⃣ **Create your connection object** — just enter your source database credentials and IP/hostname.  
@@ -126,7 +126,7 @@ Take your analytics to the next level with the power of our **[Latest Release of
 #### 🌎 Virtual Schema Adapters & Templates
 - Preinstalled and ready-to-use **Virtual Schema Adapters and Templates** for seamless cross-database access.  
 - Supported databases:  
-**Databricks, IBM DB2, MySQL, Oracle, PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server, and Exasol.**
+**Amazon Athena, Amazon Redshift, Databricks, IBM DB2, MySQL, Oracle, PostgreSQL, SAP Hana, Snowflake, Microsoft SQL Server and Exasol.**
 
 - Connect in **three simple steps**:  
   1️⃣ **Create your connection object** — just enter your credentials and database IP/hostname.  
@@ -138,6 +138,14 @@ Take your analytics to the next level with the power of our **[Latest Release of
 #### 🔢 Ready-to-Use Virtual Schemas
 - **18 preconfigured Virtual Schemas** connected to demo databases (**IBM DB2, MySQL, Oracle, PostgreSQL, Microsoft SQL Server**) and the **Exasol Public Demo Environment**, ready to query immediately.  
 - Instantly explore and query versatile demo datasets right inside your Exasol Community Edition (Banking, Flights, NYC Taxi, Prescriptions UK, TPC-H 1-1000GB, TPC-DS 1-1000GB)  
+
+---
+
+#### 💡 Exasol Extensions
+Familiarize yourself with the three powerful pre-installed Exasol Extensions. 
+- **Cloud Storage Extension** – Enables seamless data transfer between Exasol and cloud storage services like Amazon S3, Azure Blob Storage, and Google Cloud Storage.
+- **Kafka Connector Extension** – Open-source connector for integrating Apache Kafka with Exasol, supporting ingestion of Avro, JSON, and String data from Kafka topics.
+- **Kinesis Connector Extension** – Provides UDF-based integration to import real-time streaming data from Amazon Kinesis Data Streams into Exasol tables.
 
 ---
 
@@ -208,7 +216,7 @@ offering roughly **30–40 % higher performance** compared to VirtualBox in typi
 - 🟦 **VirtualBox** — The **base package** is available **free of charge**, including **commercial use**.  
   Some advanced features in the **VirtualBox Extension Pack** may require a **commercial license** for long-term use in business environments.
 
-Other similar virtualization platforms (e.g. **Proxmox**, **Parallels**, **QEMU**, etc.) *might* work as well, but they have **not been officially tested**, and we **cannot guarantee** that one of the provided `.ova` flavors will be fully compatible with them. 
+Other similar virtualization platforms (e.g. **Proxmox**, **Parallels**, **QEMU**, etc.) *might* work as well, but they have **not been officially tested**, and we **cannot guarantee** that one of the provided `.ova` flavors will be fully compatible with them.
 
 ---
 
@@ -253,9 +261,9 @@ Exasol Community Edition has been extensively tested and tuned for these hypervi
 ---
 
 #### 🪟🍏🐧 For Windows, macOS (Intel x86-64 only), and Linux (x86-64)
-**VirtualBox 7.2.4 Platform Package + Extension Pack**
+**VirtualBox 7.2.6 Platform Package + Extension Pack**
 
-🔗 [Download VirtualBox 7.2.4](https://www.virtualbox.org/wiki/Downloads)  
+🔗 [Download VirtualBox 7.2.6](https://www.virtualbox.org/wiki/Downloads)  
 📘 [VirtualBox User Manual](https://www.virtualbox.org/manual/)
 
 > ⚠️ **Important:**  
@@ -299,18 +307,18 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
 ### 🪟 VMware Workstation Pro (Windows)
 
 1️⃣ **Install or Update to VMware Workstation Pro 25H2**  
-   - Download the latest version from the [VMware website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion). 
+   - Download the latest version from the [VMware website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).
    - Follow the on-screen instructions. Installation usually takes less than 5 minutes.  
    - 🔁 Reboot your Windows machine after installation to activate all components.
 
 2️⃣ **Download the `Exasol_Community_Edition_v8_202xxx_vmware.ova`**  
    - Get the **VMware Edition (Exasol_Community_Edition_v8_202xxx_vmware.ova)** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
-   - Download size is around 14 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
+   - Download size is around 10 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
 
 3️⃣ **Import the OVA file**  
    - Open **VMware Workstation Pro** → *File > Open* or → *Click the icon > Open a Virtual Machine*.  
    - Select the downloaded `.ova` file and click **Import**.
-   - The import process usually takes less than 5 minutes to complete. 
+   - The import process usually takes less than 5 minutes to complete.
    - All optimal settings (CPU, RAM, storage, network) are already preconfigured for you. No manual configuration needed.  
 
 4️⃣ **Start the Virtual Machine**  
@@ -339,14 +347,14 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
 
 2️⃣ **Download the `Exasol_Community_Edition_v8_202xxx_vmware.ova`**  
    - Get the **VMware Edition (Exasol_Community_Edition_v8_202xxx_vmware.ova)** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
-   - Download size is around 14 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
+   - Download size is around 10 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
 
 3️⃣ **Import the OVA file**  
    - Launch **VMware Fusion** → *File > Import*.  
    - Select the downloaded `.ova` file by clicking on **Choose File...** and click **Continue**.
    - Choose the Folder where to save the VM (leave it on default settings) and click **Save**. Import of the VM starts automatically.
    - The import process usually takes less than 5 minutes to complete.
-   - Click **Finish** to startup the VM for the first time. 
+   - Click **Finish** to startup the VM for the first time.
    - All optimal settings (CPU, RAM, storage, network) are already preconfigured for you. No manual configuration needed.
    - Please do not change any settings of the VM. You can raise your Processor/Memory settings to 8 vCPUs, 16 GB RAM at a later stage, the default setting of 4 vCPUs, 8 GB RAM is a good starting point.
 
@@ -368,15 +376,15 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
 
 ### 🪟 VirtualBox (Windows)
 
-1️⃣ **Install or Update to VirtualBox 7.2.4 + VirtualBox Extension Pack**  
+1️⃣ **Install or Update to VirtualBox 7.2.6 + VirtualBox Extension Pack**  
    - Download both from the [official VirtualBox site](https://www.virtualbox.org/wiki/Downloads).  
    - Install the *Platform Package* **and** the *Extension Pack* (needed for NVMe support).
-   - Follow the on-screen instructions. Installation usually takes less than 5 minutes. 
+   - Follow the on-screen instructions. Installation usually takes less than 5 minutes.
    - 🔁 Reboot your Windows machine after installation to activate all components.
 
 2️⃣ **Download the `Exasol_Community_Edition_v8_202xxx_virtualbox.ova`**  
    - Get the **Virtualbox Edition (Exasol_Community_Edition_v8_202xxx_virtualbox.ova)** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
-   - Download size is around 14 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
+   - Download size is around 10 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
 
 3️⃣ **Import the OVA file**  
    - Open **VirtualBox** → *File > Import Appliance...* or → *Click the icon on the home screen > Import*.  
@@ -403,15 +411,15 @@ Each **OVA flavor** is fully preconfigured and ready to run with all recommended
 
 ### 🍏 VirtualBox (macOS Intel)
 
-1️⃣ **Install or Update to VirtualBox 7.2.4 + VirtualBox Extension Pack**  
+1️⃣ **Install or Update to VirtualBox 7.2.6 + VirtualBox Extension Pack**  
    - Download both from the [official VirtualBox site](https://www.virtualbox.org/wiki/Downloads).  
    - Install the *Platform Package* **and** the *Extension Pack* (needed for NVMe support).
-   - Follow the on-screen instructions. Installation usually takes less than 5 minutes. 
+   - Follow the on-screen instructions. Installation usually takes less than 5 minutes.
    - 🔁 Reboot your Mac after installation to activate all components.
 
 2️⃣ **Download the `Exasol_Community_Edition_v8_202xxx_virtualbox.ova`**  
    - Get the **Virtualbox Edition (Exasol_Community_Edition_v8_202xxx_virtualbox.ova)** from the [Exasol Community Edition Download Page](https://www.exasol.com/free-signup-community-edition/).
-   - Download size is around 14 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
+   - Download size is around 10 GB and should take less than 10 minutes to complete, depending on your internet connection speed.
 
 3️⃣ **Import the OVA file**  
    - Open **VirtualBox** → *File > Import Appliance...* or → *Click the icon on the home screen > Import*.  
@@ -472,21 +480,26 @@ Once your **Exasol Community Edition** VM is up and running, you can start explo
 - Navigate to **Bookmarks / 1 - Getting Started**.
 - Open the SQL script **`01 - TPC-H 1GB Setup.sql`** and follow the instructions to import data from local CSV Files.
 - Open the SQL script **`02 - TPC-H 1GB Queries.sql`** to run queries on the imported 1 GB TPC-H dataset.
-- Open the SQL script **`03 - TPC-DS 1GB Setup.sql`** and follow the instructions to import data from our Exasol Public Demo environment.
+- Open the SQL script **`03 - TPC-DS 1GB Setup.sql`** and follow the instructions to import data from our Exasol Public Demo environment via EXA-to-EXA connection.
 - Open the SQL script **`04 - TPC-DS 1GB Queries.sql`** to run queries on the 1 GB TPC-DS dataset.
-- Continue with **`05 - TPC-H 10GB Setup.sql`** and **`06 - TPC-H 10GB Queries.sql`** if you want to import data and test queries on a larger dataset.
+- Continue with **`05 - TPC-H 10GB Setup.sql`** and **`06 - TPC-H 10GB Queries.sql`** and follow the instructions to import data from Parquet files in an AWS S3 Bucket and test queries on a larger 10 GB TPC-H dataset.
 
 ---
 
 - Navigate to **Bookmarks / 2 - Database Migration**.
-- Follow the instructions in the respective SQL Scripts to easily **import data from Databricks, IBM DB2, MariaDB, MySQL, Oracle, PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server (On-Prem and Azure SQL), Teradata, and Exasol** into your Exasol Database.
+- Follow the instructions in the respective SQL Scripts to easily **import data from Amazon Redshift, Databricks, IBM DB2, MariaDB, MySQL, Oracle, PostgreSQL, SAP Hana, Snowflake, Microsoft SQL Server (On-Prem and Azure SQL), Teradata and Exasol** into your Exasol Database.
 - This will get you hands-on experience with **Exasol’s high-speed and easy migration capabilities**.
 
 ---
 
 - Navigate to **Bookmarks / 3 - Virtual Schemas**.
-- Follow the instructions in the respective SQL Scripts to easily **create virtual schemas to Databricks, IBM DB2, MySQL, Oracle, PostgreSQL, Amazon Redshift, SAP Hana, Snowflake, Microsoft SQL Server, and Exasol to query your source data** directly from Exasol — no data movement required.
+- Follow the instructions in the respective SQL Scripts to easily **create virtual schemas to Amazon Athena, Amazon Redshift, Databricks, IBM DB2, MySQL, Oracle, PostgreSQL, SAP Hana, Snowflake, Microsoft SQL Server and Exasol to query your source data** directly from Exasol — no data movement required.
 - This will get you hands-on experience with **Exasol’s powerful Virtual Schema capabilities**.
+
+---
+
+- Navigate to **Bookmarks / 4 - Extensions**.
+- Follow the instructions in the respective SQL Scripts to make yourself familiar with the **three powerful Exasol Extensions: Cloud Storage Extension, Kafka Connector Extension and Kinesis Connector Extension.**
 
 ---
 
@@ -502,8 +515,7 @@ Check out the official guide 👉 [How Virtual Schemas Work](https://docs.exasol
 
 ### 4️⃣ Access and explore the Exasol AdminUI
 
-Your Exasol Community Edition includes the new and modern **Exasol AdminUI** — a built-in web interface for **managing, monitoring, and troubleshooting** your database with ease.  
-💡 *Note:* This is the **first release** of the AdminUI — additional functionality will be added in upcoming versions.
+Your Exasol Community Edition includes the new and modern **Exasol AdminUI** — a built-in web interface for **managing, monitoring, and troubleshooting** your database with ease.
 
 - 🖱️ Double-click the **Exasol AdminUI** desktop icon.  
 - 🌐 Alternatively, open **Firefox** (preconfigured with Exasol bookmarks) and click the bookmark **“Exasol AdminUI”**.  
@@ -528,4 +540,3 @@ Now it’s time to **unleash your creativity and discover what Exasol can do for
 
 We’d **love to hear from you about your experience with the Community Edition** — actively engage, share your feedback, and connect with other users in our vibrant Exasol Community!  
 🗣️ Post it in the **[Exasol Community Forum](https://community.exasol.com/tag/community-edition)** using the tag `community-edition`.
-
