@@ -8,8 +8,8 @@ STEPS:
         > IMPORT DATA DIRECTLY FROM OUR PUBLIC DEMO SYSTEM DEMODB.EXASOL.COM VIA EXA TO EXA CONNECTION
         > MAKE SURE YOUR COMMUNITY EDITION IS CONNECTED TO THE INTERNET AND YOUR FIREWALL DOES NOT BLOCK TRAFFIC TO PORT 8563
 
--- Estimated times on 4vcpu, 8gb memory and a 1Gbit Internet Connection ~1-3mins
--- Import performance heavily depends on you internet connection speed and also increases with more nodes, vCPU and RAM
+-- Estimated times on 4vcpu, 8gb memory and a 100Mbit Internet Connection ~1-3mins
+-- Import performance heavily depends on your internet connection speed and also increases with more nodes, vCPU and RAM
 
 -- Next, Go to Bookmarks > 1 - Getting Started > 04 - TPC-DS 1GB Queries.sql
 
